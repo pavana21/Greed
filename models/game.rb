@@ -29,6 +29,5 @@ class Game
 
   def player_has_winning_score?
     players = @players.select {|player| player.score >= 3000}
-    players.length > 0 ? players[0] : nil
   end
 end
