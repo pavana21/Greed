@@ -26,6 +26,6 @@ class Player
       @player_in_game = true 
     end
     @score += points unless !@player_in_game
-    return @score
+    return @score1
   end  
 end
