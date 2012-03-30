@@ -23,7 +23,7 @@ class Dice
   def count_dice(dice)
     count = Hash.new(0)
     dice.each { |die| count[die] += 1 }
-    count
+    count1
   end
 
   def score_count(count)
